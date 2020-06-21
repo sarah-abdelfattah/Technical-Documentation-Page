@@ -1,0 +1,63 @@
+/* making width of element like parent --> width: auto; display: block; */
+
+nav{
+    display: inline-block;
+    background: red;
+    width: 300px;
+    position: fixed;
+}
+
+main{
+    display: inline-block;
+    position: absolute;
+    border: solid red;
+    padding: 20px;
+    left: 310px;
+}
+
+header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+ul{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+code{
+    margin-left: 35px;
+    font-size: 14px;
+    background: rgb(242, 242, 242);
+    width: auto;
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#JS_documentation{
+    position: fixed;
+}
+
+.nav-elements{
+    margin-top: 40px;
+    list-style-type: none;
+    margin-left: 0px;
+    background: blue;
+}
+
+.nav-link{
+    border: 2px solid black;
+    background: chartreuse;
+    margin-left: 0px;
+}
+
+.nav-link a{
+    font-weight: bold;
+    color: black;
+}
