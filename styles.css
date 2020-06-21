@@ -6,24 +6,21 @@ nav{
     width: 300px;
     position: fixed;
     height: 100%;
+    margin: 0px;
+    border: 1px solid black;
 }
 
 #JS_documentation{
-    position: fixed;
+    position: relative;
     font-size: 30px;
-    /* color: white;
-    background: black; */
-    padding: 10px;
     font-family: 'Lora', serif;
-    border: solid;
-    margin: 0px;
-    width: 274.25px;
+    margin: 10px;
+    padding: 5px;
 }
 
 .nav-elements{
-    margin-top: 60px;
     list-style-type: none;
-    margin-left: 0px;
+    margin: -4px 0px;
     padding: 4px 0px;
 }
 
@@ -33,8 +30,6 @@ nav{
     text-align: center;
     font-size: 25px;
     padding: 7px;
-    /* margin-bottom: 2px;
-    border-radius: 5px; */
     background: rgb(247, 247, 247);
 }
 .nav-link{
@@ -85,9 +80,23 @@ code{
     padding: 15px;
     border-radius: 5px;
 }
-/* 
+
+
 @media only screen and (max-width: 770px) {
-    #main-doc {
-      margin-left: -10px;
+    nav{
+        width: 100%;
+        position: relative;
+        height: auto;
+        position: 0px;
+        align-items: center;
     }
-} */
+
+    #JS_documentation{
+        position: relative;
+    }
+
+    main{
+        left: 0px;
+    }
+
+}
